@@ -1,0 +1,76 @@
+input[type=text],input[type=file],textarea,select {padding:5px; border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+input[type=text]:focus {border-color:#333; }
+
+input[type=submit],input[type=file] {padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
+
+input[type=radio]:focus {border-color:#333; }
+input[type=radio]:checked{
+ color:#333;;
+}
+textarea{
+	height: 5em;
+}
+table{
+  border-collapse:collapse;
+  text-align:left;
+  width:100%;
+  margin:0;
+  padding:0;
+  background:#7f8c8d;
+  animation: responsive 5s infinite ease-in-out;
+}
+body{
+  background:#1abc9c;
+}
+.description{
+  font-family: 'Vollkorn', serif;
+  text-align:center;
+  color:#ecf0f1;
+  text-shadow:0 0.1em 0.2em #008c8d;
+}
+
+.box-table{
+  font:normal 12px/150% Arial, Helvetica, sans-serif;
+  margin:0 auto;
+  width:50%;
+  padding:2.5%;
+}
+label{
+	background-color:#7f8c8d;
+  color:#bdc3c7;
+  text-align:center;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+.box-table table thead th{
+  background-color:#800040;
+  color:#bdc3c7;
+  text-align:center;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  height:auto;
+  vertical-align: top;
+  border-left:0.25em double #95a5a6;
+
+}
+.box-table table tbody td,
+.box-table table tbody tr{
+  font-family: 'Vollkorn', serif;
+  font-size:1.1em;
+  border:none;
+  padding:0.5em;
+}
+
+span{
+	font-family: 'Vollkorn', serif;
+  font-size:0.8em;
+  color: #ff5555;
+}
